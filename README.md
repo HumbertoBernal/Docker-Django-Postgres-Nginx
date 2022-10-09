@@ -13,7 +13,7 @@ docker-compose up -d
 ```
 
 > Para correr comandos dentro de un contenedor usa
-  `docker-compose -f local.yml run --rm django python manage.py <command>`
+  `docker-compose exec web python manage.py <command>`
 
 ### Save local backup
 ``` 
